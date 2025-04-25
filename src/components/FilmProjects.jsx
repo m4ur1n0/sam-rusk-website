@@ -23,7 +23,7 @@ const FilmProjects = ({id}) => {
                 <div className='film-projects-section-videos-row w-full flex justify-between overflow-hidden'>
                     <div className='flex flex-col max-w-[405px]'>
                         <VideoLink url={"https://drive.google.com/file/d/1ZLxzuFWxnS0oiSkM2eH0_wUAn8wMbY3h/view?usp=sharing"} title="Terrarium" image_path={"/images/terrarium-thumbnail.png"} />
-                        <p className='text-gray-500 text-sm mt-2 text-wrap'>A purely demonstrative first-cut. No color grading or stabilization, very copyrighted audio, missing clips, etc.</p>
+                        <p className='text-gray-500 text-sm mt-2 text-wrap'>A purely demonstrative first cut. No color grading or stabilization, very copyrighted audio, missing clips, etc.</p>
                     </div>
                 </div>
                 
