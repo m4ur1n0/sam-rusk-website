@@ -6,7 +6,8 @@ import FilmProjects from "@/components/FilmProjects";
 import Name from "@/components/Name";
 import NavBar from "@/components/NavBar";
 import Resume from "@/components/Resume";
-import Writing from "@/components/Writing";
+import ResumeAndAdditionalReferences from "@/components/ResumeAndAdditionalReferences";
+// import Writing from "@/components/Writing";
 
 export default function Home() {
   return (
@@ -19,11 +20,13 @@ export default function Home() {
 
       <FilmProjects id="film-projects" />
 
-      <Resume  id="resume" />
+      {/* <Resume  id="resume" />
 
-      <AdditionalReferences/>
+      <AdditionalReferences/> */}
 
-      <Writing id="writing" />
+      <ResumeAndAdditionalReferences />
+
+      {/* <Writing id="writing" /> */}
 
       <Contact id="contact" />
 

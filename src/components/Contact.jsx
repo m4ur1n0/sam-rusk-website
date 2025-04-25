@@ -12,11 +12,11 @@ const Contact = ({id}) => {
 
             <div className='contact-section-copy ml-5 flex flex-col gap-4'>
                 <Link className='cursor-pointer' href={"mailto:sammytrusk@gmail.com"}>
-                    Email: sammytrusk (at) gmail (dot) com
+                    Email: sammytrusk@gmail.com
                 </Link>
-                <p>Phone Number: (413) 645-4815</p>
-                <p>Old Media: P.O Box 446, Stockbridge MA, 01262</p>
-                <p>Location: 20 miles as the crow flies</p>
+                <p>Phone Number: +1 (413) 645-4815</p>
+                <p>Old Media: P.O. Box 554, Stockbridge MA, 01262</p>
+                <p>Location: 20 miles away as the crow flies</p>
             </div>
         </div>
 
